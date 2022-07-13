@@ -466,7 +466,7 @@ To use an existing React app:
 
 ```bash
 # To enable React Fast Refresh, ensure "react-refresh" is installed
-npm install -D react-refresh
+bun add -d react-refresh
 
 # Generate a bundle for your entry point(s)
 bun bun ./src/index.js # jsx, tsx, ts also work. can be multiple files
